@@ -4,6 +4,7 @@ import com.platform.spreadranking.application.port.out.OrderBookProviderPort;
 import com.platform.spreadranking.domain.market.Market;
 import com.platform.spreadranking.domain.market.OrderBook;
 import com.platform.spreadranking.domain.market.PriceLevel;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
@@ -11,6 +12,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Component
+@Profile("!test")
 public class KangaOrderBookAdapter implements OrderBookProviderPort {
 
     private final RestClient restClient;

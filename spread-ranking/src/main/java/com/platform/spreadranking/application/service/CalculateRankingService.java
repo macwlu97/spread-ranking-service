@@ -9,7 +9,7 @@ import com.platform.spreadranking.domain.ranking.Ranking.Item;
 import com.platform.spreadranking.domain.spread.SpreadCalculator;
 import org.springframework.stereotype.Service;
 
-import java.time.Instant;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -47,15 +47,18 @@ public class CalculateRankingService implements CalculateRankingUseCase {
 
             var spreadOpt = spreadCalculator.calculate(orderBook);
 
-            // GROUP 3 → missing data
-            if (spreadOpt.isEmpty()) {
+            // GROUP 3 → missing / invalid data
+            if (spreadOpt.isEmpty() || spreadOpt.get().value() == null) {
                 group3.add(new Item(market.tickerId(), "N/A"));
                 continue;
             }
 
             var spread = spreadOpt.get();
 
-            var formattedValue = String.format("%.2f", spread.value().doubleValue());
+            // FIX: BigDecimal safe formatting (no double)
+            var formattedValue = spread.value()
+                    .setScale(2, RoundingMode.HALF_UP)
+                    .toPlainString();
 
             if (spread.isLow()) {
                 group1.add(new Item(market.tickerId(), formattedValue));

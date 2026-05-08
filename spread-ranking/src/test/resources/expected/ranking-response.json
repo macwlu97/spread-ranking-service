@@ -1,1339 +1,1340 @@
 {
+  "timestamp": "2026-05-08T20:00:29.682154Z",
   "ranking": {
     "group1": [
       {
         "market": "AAVE_USDC",
-        "spread": "1,19"
+        "spread": "1.41"
+      },
+      {
+        "market": "ADA_PLN",
+        "spread": "1.42"
       },
       {
         "market": "ADA_USDC",
-        "spread": "1,37"
-      },
-      {
-        "market": "ALGO_PLN",
-        "spread": "1,08"
+        "spread": "1.36"
       },
       {
         "market": "ALGO_USDC",
-        "spread": "1,46"
+        "spread": "1.23"
+      },
+      {
+        "market": "APT_USDC",
+        "spread": "1.95"
+      },
+      {
+        "market": "APT_USDT",
+        "spread": "1.95"
       },
       {
         "market": "ARB_PLN",
-        "spread": "1,43"
+        "spread": "1.46"
       },
       {
         "market": "ARB_USDC",
-        "spread": "1,38"
+        "spread": "1.23"
+      },
+      {
+        "market": "AVAX_PLN",
+        "spread": "1.35"
       },
       {
         "market": "AVAX_USDC",
-        "spread": "1,13"
+        "spread": "1.21"
       },
       {
         "market": "BAR_USDC",
-        "spread": "1,13"
+        "spread": "1.11"
       },
       {
-        "market": "BAT_USDT",
-        "spread": "1,95"
-      },
-      {
-        "market": "BNB_USDC",
-        "spread": "1,87"
+        "market": "BTCV_BTC",
+        "spread": "1.98"
       },
       {
         "market": "BTC_EUR",
-        "spread": "0,50"
+        "spread": "0.51"
       },
       {
         "market": "BTC_EURC",
-        "spread": "1,29"
+        "spread": "1.27"
       },
       {
         "market": "BTC_PLN",
-        "spread": "0,77"
+        "spread": "0.88"
       },
       {
         "market": "BTC_USD",
-        "spread": "1,49"
+        "spread": "1.45"
       },
       {
         "market": "BTC_USDC",
-        "spread": "0,27"
+        "spread": "0.25"
       },
       {
         "market": "BTC_USDQ",
-        "spread": "1,30"
+        "spread": "1.13"
       },
       {
         "market": "BTC_USDR",
-        "spread": "1,06"
+        "spread": "1.32"
       },
       {
         "market": "BTC_USDT",
-        "spread": "0,26"
+        "spread": "0.22"
       },
       {
-        "market": "CHIP_USDC",
-        "spread": "1,85"
+        "market": "CHZ_USDC",
+        "spread": "1.14"
       },
       {
         "market": "DOGE_PLN",
-        "spread": "1,40"
+        "spread": "1.38"
       },
       {
         "market": "DOGE_USDC",
-        "spread": "1,10"
+        "spread": "1.39"
+      },
+      {
+        "market": "DOGE_USDT",
+        "spread": "1.98"
       },
       {
         "market": "DOT_PLN",
-        "spread": "1,56"
+        "spread": "1.54"
       },
       {
         "market": "DOT_USDC",
-        "spread": "1,26"
+        "spread": "1.38"
+      },
+      {
+        "market": "ENA_PLN",
+        "spread": "1.79"
+      },
+      {
+        "market": "ENA_USDC",
+        "spread": "1.90"
+      },
+      {
+        "market": "ENA_USDT",
+        "spread": "1.99"
       },
       {
         "market": "ETC_USDT",
-        "spread": "1,53"
+        "spread": "1.52"
       },
       {
         "market": "ETH_BTC",
-        "spread": "0,42"
+        "spread": "0.39"
       },
       {
         "market": "ETH_EUR",
-        "spread": "0,51"
+        "spread": "0.46"
       },
       {
         "market": "ETH_EURC",
-        "spread": "0,31"
+        "spread": "0.32"
       },
       {
         "market": "ETH_PLN",
-        "spread": "0,86"
+        "spread": "0.76"
       },
       {
         "market": "ETH_USDC",
-        "spread": "0,24"
+        "spread": "0.28"
       },
       {
         "market": "ETH_USDT",
-        "spread": "0,20"
+        "spread": "0.25"
       },
       {
         "market": "EURC_PLN",
-        "spread": "0,70"
+        "spread": "0.78"
       },
       {
         "market": "EURC_USDC",
-        "spread": "1,05"
+        "spread": "0.97"
       },
       {
         "market": "GFK_USDC",
-        "spread": "0,29"
-      },
-      {
-        "market": "GRASS_USDC",
-        "spread": "2,00"
-      },
-      {
-        "market": "H_USDC",
-        "spread": "1,98"
+        "spread": "0.29"
       },
       {
         "market": "INTER_USDC",
-        "spread": "0,97"
+        "spread": "1.77"
       },
       {
-        "market": "JASMY_USDC",
-        "spread": "0,13"
-      },
-      {
-        "market": "JASMY_USDT",
-        "spread": "0,50"
-      },
-      {
-        "market": "JTO_USDT",
-        "spread": "1,94"
+        "market": "JTO_USDC",
+        "spread": "1.90"
       },
       {
         "market": "KETH_ETH",
-        "spread": "0,12"
+        "spread": "0.12"
+      },
+      {
+        "market": "KITE_USDC",
+        "spread": "1.98"
       },
       {
         "market": "KNG_PLN",
-        "spread": "0,65"
+        "spread": "0.56"
       },
       {
         "market": "KNG_USDC",
-        "spread": "0,95"
+        "spread": "0.95"
       },
       {
         "market": "KNG_USDT",
-        "spread": "1,12"
+        "spread": "1.21"
       },
       {
         "market": "LEG_USDC",
-        "spread": "0,21"
+        "spread": "0.21"
       },
       {
         "market": "LINK_PLN",
-        "spread": "1,30"
+        "spread": "1.61"
       },
       {
         "market": "LINK_USDC",
-        "spread": "1,56"
+        "spread": "1.73"
       },
       {
-        "market": "LINK_USDT",
-        "spread": "1,93"
+        "market": "LTC_PLN",
+        "spread": "1.41"
       },
       {
         "market": "LTC_USDC",
-        "spread": "1,13"
-      },
-      {
-        "market": "LTC_USDT",
-        "spread": "1,48"
+        "spread": "1.39"
       },
       {
         "market": "NAKA_USDT",
-        "spread": "0,52"
+        "spread": "0.52"
       },
       {
         "market": "ONDO_USDT",
-        "spread": "1,82"
+        "spread": "1.79"
       },
       {
         "market": "PAXG_PLN",
-        "spread": "1,10"
+        "spread": "0.87"
       },
       {
         "market": "PEPE_PLN",
-        "spread": "1,31"
+        "spread": "1.29"
       },
       {
         "market": "PEPE_USDC",
-        "spread": "0,94"
+        "spread": "0.93"
       },
       {
         "market": "POL_PLN",
-        "spread": "1,44"
+        "spread": "1.26"
       },
       {
         "market": "POL_USDC",
-        "spread": "1,30"
+        "spread": "1.28"
       },
       {
         "market": "RENDER_PLN",
-        "spread": "1,42"
+        "spread": "1.42"
       },
       {
         "market": "RENDER_USDC",
-        "spread": "1,34"
+        "spread": "1.54"
       },
       {
         "market": "SAM_USDC",
-        "spread": "0,28"
+        "spread": "0.28"
       },
       {
         "market": "SHIB_PLN",
-        "spread": "1,35"
+        "spread": "1.34"
       },
       {
         "market": "SHIB_USDC",
-        "spread": "1,10"
+        "spread": "1.24"
       },
       {
         "market": "SOCAP_USDT",
-        "spread": "1,83"
+        "spread": "1.83"
       },
       {
         "market": "SOL_PLN",
-        "spread": "0,91"
+        "spread": "0.93"
       },
       {
         "market": "SOL_USDC",
-        "spread": "0,61"
+        "spread": "0.74"
       },
       {
         "market": "SOL_USDT",
-        "spread": "1,33"
+        "spread": "1.66"
       },
       {
         "market": "S_USDC",
-        "spread": "1,74"
-      },
-      {
-        "market": "TON_USDC",
-        "spread": "1,60"
-      },
-      {
-        "market": "UNI_PLN",
-        "spread": "1,95"
+        "spread": "1.56"
       },
       {
         "market": "UNI_USDC",
-        "spread": "1,03"
+        "spread": "1.41"
       },
       {
         "market": "UNI_USDT",
-        "spread": "1,98"
+        "spread": "1.98"
       },
       {
         "market": "USDC_PLN",
-        "spread": "0,14"
+        "spread": "0.37"
       },
       {
         "market": "USDQ_USDC",
-        "spread": "1,40"
+        "spread": "1.40"
       },
       {
         "market": "USDR_USDC",
-        "spread": "1,09"
+        "spread": "1.13"
       },
       {
         "market": "USDT_EUR",
-        "spread": "0,52"
+        "spread": "0.49"
       },
       {
         "market": "USDT_PLN",
-        "spread": "0,33"
+        "spread": "0.24"
       },
       {
         "market": "USDT_UAHG",
-        "spread": "0,48"
+        "spread": "0.50"
       },
       {
         "market": "USDT_USD",
-        "spread": "0,79"
+        "spread": "0.71"
       },
       {
         "market": "USDT_USDC",
-        "spread": "0,40"
+        "spread": "0.40"
       },
       {
         "market": "USD_PLN",
-        "spread": "1,39"
+        "spread": "1.46"
       },
       {
         "market": "VVV_USDC",
-        "spread": "1,93"
+        "spread": "1.93"
       },
       {
         "market": "WBTC_BTC",
-        "spread": "0,01"
+        "spread": "0.01"
       },
       {
         "market": "WLD_PLN",
-        "spread": "1,19"
+        "spread": "1.83"
+      },
+      {
+        "market": "WLD_USDC",
+        "spread": "1.17"
       },
       {
         "market": "ZEC_PLN",
-        "spread": "1,52"
+        "spread": "1.74"
       },
       {
         "market": "kAMCA_USD",
-        "spread": "0,04"
+        "spread": "0.04"
       },
       {
         "market": "kERA_EUR",
-        "spread": "0,01"
+        "spread": "0.01"
       },
       {
         "market": "kPLK_PLN",
-        "spread": "0,01"
+        "spread": "0.01"
       }
     ],
     "group2": [
       {
         "market": "1INCH_USDT",
-        "spread": "3,22"
+        "spread": "3.29"
       },
       {
         "market": "2Z_USDC",
-        "spread": "3,84"
+        "spread": "3.93"
       },
       {
         "market": "AAVE_PLN",
-        "spread": "2,48"
+        "spread": "2.59"
       },
       {
         "market": "AAVE_USDT",
-        "spread": "2,53"
+        "spread": "2.61"
       },
       {
         "market": "ACE_USDT",
-        "spread": "2,92"
-      },
-      {
-        "market": "ADA_PLN",
-        "spread": "2,05"
+        "spread": "2.69"
       },
       {
         "market": "ADA_USDT",
-        "spread": "2,52"
+        "spread": "2.54"
       },
       {
         "market": "AERO_USDC",
-        "spread": "3,58"
+        "spread": "3.59"
       },
       {
         "market": "AGLD_USDT",
-        "spread": "2,81"
+        "spread": "2.81"
       },
       {
         "market": "AIXBT_USDC",
-        "spread": "3,23"
+        "spread": "3.26"
+      },
+      {
+        "market": "ALGO_PLN",
+        "spread": "2.92"
       },
       {
         "market": "ALGO_USDT",
-        "spread": "3,42"
+        "spread": "3.93"
       },
       {
         "market": "APE_USDC",
-        "spread": "2,99"
+        "spread": "2.95"
       },
       {
         "market": "APE_USDT",
-        "spread": "3,23"
+        "spread": "3.08"
       },
       {
         "market": "APIS_PLN",
-        "spread": "31,44"
-      },
-      {
-        "market": "APT_USDC",
-        "spread": "2,09"
-      },
-      {
-        "market": "APT_USDT",
-        "spread": "2,27"
+        "spread": "31.44"
       },
       {
         "market": "ARB_USDT",
-        "spread": "3,70"
+        "spread": "3.75"
       },
       {
         "market": "ARTY_USDT",
-        "spread": "4,62"
+        "spread": "4.59"
       },
       {
         "market": "ASTER_USDC",
-        "spread": "3,57"
-      },
-      {
-        "market": "AVAX_PLN",
-        "spread": "2,52"
+        "spread": "3.50"
       },
       {
         "market": "AVAX_USDT",
-        "spread": "3,08"
+        "spread": "3.03"
       },
       {
         "market": "AVNT_USDC",
-        "spread": "3,16"
+        "spread": "3.19"
       },
       {
         "market": "AXS_USDC",
-        "spread": "3,92"
+        "spread": "3.88"
       },
       {
         "market": "AXS_USDT",
-        "spread": "4,29"
+        "spread": "3.53"
       },
       {
         "market": "AZTEC_USDC",
-        "spread": "3,08"
+        "spread": "3.04"
       },
       {
         "market": "BABY_USDC",
-        "spread": "3,19"
+        "spread": "3.26"
       },
       {
         "market": "BAISHI_USDC",
-        "spread": "162,79"
+        "spread": "162.79"
       },
       {
         "market": "BAND_USDT",
-        "spread": "2,67"
+        "spread": "2.56"
       },
       {
         "market": "BARD_USDC",
-        "spread": "3,80"
+        "spread": "3.74"
+      },
+      {
+        "market": "BAT_USDT",
+        "spread": "2.43"
       },
       {
         "market": "BCH_USDC",
-        "spread": "3,57"
+        "spread": "3.56"
       },
       {
         "market": "BCH_USDT",
-        "spread": "3,57"
+        "spread": "3.56"
       },
       {
         "market": "BEAM_USDC",
-        "spread": "3,16"
+        "spread": "3.17"
       },
       {
         "market": "BEAM_USDT",
-        "spread": "3,10"
+        "spread": "3.13"
       },
       {
         "market": "BERA_USDC",
-        "spread": "3,82"
+        "spread": "3.78"
       },
       {
         "market": "BERA_USDT",
-        "spread": "3,61"
+        "spread": "3.75"
       },
       {
         "market": "BIGTIME_USDT",
-        "spread": "3,63"
+        "spread": "3.68"
       },
       {
         "market": "BLUR_USDT",
-        "spread": "3,45"
+        "spread": "3.45"
       },
       {
         "market": "BNB_PLN",
-        "spread": "2,93"
+        "spread": "2.56"
+      },
+      {
+        "market": "BNB_USDC",
+        "spread": "2.62"
       },
       {
         "market": "BNB_USDT",
-        "spread": "2,02"
+        "spread": "2.01"
       },
       {
         "market": "BONE_USDT",
-        "spread": "3,45"
+        "spread": "3.06"
       },
       {
         "market": "BONK_PLN",
-        "spread": "3,67"
+        "spread": "3.61"
       },
       {
         "market": "BONK_USDC",
-        "spread": "4,40"
+        "spread": "4.19"
       },
       {
         "market": "BONK_USDT",
-        "spread": "2,56"
+        "spread": "2.38"
       },
       {
         "market": "BRETT_USDC",
-        "spread": "3,20"
+        "spread": "3.18"
       },
       {
         "market": "BRETT_USDT",
-        "spread": "3,12"
-      },
-      {
-        "market": "BTCV_BTC",
-        "spread": "2,02"
+        "spread": "3.23"
       },
       {
         "market": "BTC_EURQ",
-        "spread": "4,60"
+        "spread": "4.61"
       },
       {
         "market": "BTC_EURR",
-        "spread": "5,50"
+        "spread": "5.50"
       },
       {
         "market": "BTEC_USDT",
-        "spread": "39,59"
+        "spread": "39.59"
       },
       {
         "market": "BWAX_PLN",
-        "spread": "52,76"
+        "spread": "52.76"
       },
       {
         "market": "CAKE_USDT",
-        "spread": "2,13"
+        "spread": "2.12"
       },
       {
         "market": "CELR_USDT",
-        "spread": "5,09"
+        "spread": "5.09"
       },
       {
         "market": "CGPT_USDC",
-        "spread": "2,17"
+        "spread": "2.12"
       },
       {
         "market": "CGPT_USDT",
-        "spread": "2,17"
+        "spread": "2.12"
       },
       {
-        "market": "CHZ_USDC",
-        "spread": "2,18"
+        "market": "CHIP_USDC",
+        "spread": "2.33"
       },
       {
         "market": "CHZ_USDT",
-        "spread": "2,15"
+        "spread": "2.10"
       },
       {
         "market": "COMB_PLN",
-        "spread": "36,60"
+        "spread": "36.60"
       },
       {
         "market": "COMP_USDC",
-        "spread": "2,29"
+        "spread": "2.25"
       },
       {
         "market": "COOKIE_USDC",
-        "spread": "3,30"
+        "spread": "3.30"
       },
       {
         "market": "COOKIE_USDT",
-        "spread": "3,30"
+        "spread": "3.30"
       },
       {
         "market": "CORE_USDC",
-        "spread": "4,48"
+        "spread": "4.62"
       },
       {
         "market": "CRO_USDC",
-        "spread": "3,67"
+        "spread": "3.69"
       },
       {
         "market": "CRV_USDT",
-        "spread": "3,15"
+        "spread": "3.08"
       },
       {
         "market": "CXT_USDT",
-        "spread": "3,44"
+        "spread": "3.20"
       },
       {
         "market": "DAO_USDT",
-        "spread": "4,42"
+        "spread": "3.39"
       },
       {
         "market": "DASH_PLN",
-        "spread": "3,14"
+        "spread": "3.16"
       },
       {
         "market": "DASH_USDC",
-        "spread": "3,11"
+        "spread": "3.26"
       },
       {
         "market": "DASH_USDT",
-        "spread": "3,15"
+        "spread": "3.05"
       },
       {
         "market": "DEP_USDT",
-        "spread": "6,02"
+        "spread": "4.46"
       },
       {
         "market": "DODO_USDT",
-        "spread": "3,06"
-      },
-      {
-        "market": "DOGE_USDT",
-        "spread": "2,03"
+        "spread": "3.16"
       },
       {
         "market": "DOT_USDT",
-        "spread": "2,22"
+        "spread": "2.11"
       },
       {
         "market": "EDGE_USDC",
-        "spread": "2,04"
+        "spread": "2.09"
       },
       {
         "market": "EHEX_USDT",
-        "spread": "31,28"
+        "spread": "31.28"
       },
       {
         "market": "EIGEN_USDC",
-        "spread": "3,17"
-      },
-      {
-        "market": "ENA_PLN",
-        "spread": "2,05"
-      },
-      {
-        "market": "ENA_USDC",
-        "spread": "2,07"
-      },
-      {
-        "market": "ENA_USDT",
-        "spread": "2,25"
+        "spread": "3.21"
       },
       {
         "market": "ETC_PLN",
-        "spread": "4,07"
+        "spread": "3.70"
       },
       {
         "market": "ETC_USDC",
-        "spread": "3,52"
+        "spread": "3.25"
       },
       {
         "market": "ETHFI_USDC",
-        "spread": "3,13"
+        "spread": "3.08"
       },
       {
         "market": "ETHW_USDC",
-        "spread": "2,39"
+        "spread": "2.43"
       },
       {
         "market": "ETHW_USDT",
-        "spread": "2,29"
+        "spread": "2.46"
       },
       {
         "market": "EURQ_USDC",
-        "spread": "2,04"
+        "spread": "2.04"
       },
       {
         "market": "EURR_USDC",
-        "spread": "2,71"
+        "spread": "5.68"
       },
       {
         "market": "FARTCOIN_USDC",
-        "spread": "3,28"
+        "spread": "3.13"
       },
       {
         "market": "FET_USDC",
-        "spread": "3,65"
+        "spread": "3.63"
       },
       {
         "market": "FET_USDT",
-        "spread": "3,61"
+        "spread": "3.63"
       },
       {
         "market": "FIL_USDC",
-        "spread": "3,81"
+        "spread": "3.81"
       },
       {
         "market": "FIL_USDT",
-        "spread": "3,73"
+        "spread": "3.72"
       },
       {
         "market": "FLOKI_USDC",
-        "spread": "3,18"
+        "spread": "3.19"
       },
       {
         "market": "FLOKI_USDT",
-        "spread": "2,48"
+        "spread": "2.56"
       },
       {
         "market": "FLT_USDC",
-        "spread": "3,91"
+        "spread": "3.57"
       },
       {
         "market": "GALA_USDC",
-        "spread": "6,18"
+        "spread": "3.90"
       },
       {
         "market": "GALA_USDT",
-        "spread": "4,49"
+        "spread": "3.89"
       },
       {
         "market": "GENIUS_USDC",
-        "spread": "3,14"
+        "spread": "3.22"
       },
       {
         "market": "GMX_USDT",
-        "spread": "3,44"
+        "spread": "3.65"
       },
       {
         "market": "GODS_USDT",
-        "spread": "3,91"
+        "spread": "3.91"
+      },
+      {
+        "market": "GRASS_USDC",
+        "spread": "2.13"
       },
       {
         "market": "GRT_USDC",
-        "spread": "3,17"
+        "spread": "3.31"
       },
       {
         "market": "GRT_USDT",
-        "spread": "3,17"
+        "spread": "3.31"
       },
       {
         "market": "HERB_USDT",
-        "spread": "144,74"
+        "spread": "144.74"
       },
       {
         "market": "HEX_USDT",
-        "spread": "51,85"
+        "spread": "51.85"
       },
       {
         "market": "HOME_USDC",
-        "spread": "3,99"
+        "spread": "3.97"
+      },
+      {
+        "market": "H_USDC",
+        "spread": "2.12"
       },
       {
         "market": "ICNT_USDC",
-        "spread": "3,03"
+        "spread": "3.08"
       },
       {
         "market": "ICP_USDC",
-        "spread": "3,37"
+        "spread": "3.65"
       },
       {
         "market": "ICP_USDT",
-        "spread": "2,82"
+        "spread": "2.68"
       },
       {
         "market": "ILV_USDT",
-        "spread": "147,91"
+        "spread": "147.91"
       },
       {
         "market": "IMX_USDC",
-        "spread": "4,37"
+        "spread": "3.77"
       },
       {
         "market": "IMX_USDT",
-        "spread": "3,81"
+        "spread": "4.32"
       },
       {
         "market": "INC_USDT",
-        "spread": "60,14"
+        "spread": "60.14"
       },
       {
         "market": "INJ_USDC",
-        "spread": "3,60"
+        "spread": "3.55"
       },
       {
         "market": "INJ_USDT",
-        "spread": "3,60"
+        "spread": "3.60"
       },
       {
         "market": "IO_USDT",
-        "spread": "2,23"
+        "spread": "2.19"
+      },
+      {
+        "market": "JASMY_USDC",
+        "spread": "2.14"
+      },
+      {
+        "market": "JASMY_USDT",
+        "spread": "3.37"
       },
       {
         "market": "JOE_USDT",
-        "spread": "3,73"
+        "spread": "3.91"
       },
       {
-        "market": "JTO_USDC",
-        "spread": "2,20"
+        "market": "JTO_USDT",
+        "spread": "2.35"
       },
       {
         "market": "JUP_USDC",
-        "spread": "3,41"
+        "spread": "3.11"
       },
       {
         "market": "JUP_USDT",
-        "spread": "2,69"
+        "spread": "3.20"
       },
       {
         "market": "KAITO_USDC",
-        "spread": "2,06"
-      },
-      {
-        "market": "KITE_USDC",
-        "spread": "2,11"
+        "spread": "2.08"
       },
       {
         "market": "KNC_USDT",
-        "spread": "2,22"
+        "spread": "2.22"
       },
       {
         "market": "KSM_USDC",
-        "spread": "3,98"
+        "spread": "4.03"
       },
       {
         "market": "KSM_USDT",
-        "spread": "3,52"
+        "spread": "3.50"
       },
       {
         "market": "LA_USDC",
-        "spread": "4,06"
+        "spread": "4.02"
       },
       {
         "market": "LDO_USDC",
-        "spread": "3,71"
+        "spread": "3.67"
       },
       {
         "market": "LDO_USDT",
-        "spread": "2,60"
+        "spread": "2.62"
+      },
+      {
+        "market": "LINK_USDT",
+        "spread": "2.02"
       },
       {
         "market": "LIT_USDC",
-        "spread": "3,37"
+        "spread": "3.32"
       },
       {
         "market": "LPT_USDT",
-        "spread": "3,09"
+        "spread": "3.05"
       },
       {
         "market": "LRC_USDT",
-        "spread": "3,19"
+        "spread": "3.23"
       },
       {
         "market": "LTC_EUR",
-        "spread": "4,58"
+        "spread": "4.57"
       },
       {
-        "market": "LTC_PLN",
-        "spread": "2,38"
+        "market": "LTC_USDT",
+        "spread": "2.07"
       },
       {
         "market": "MANA_USDC",
-        "spread": "4,18"
+        "spread": "4.04"
       },
       {
         "market": "MANA_USDT",
-        "spread": "2,61"
+        "spread": "2.49"
       },
       {
         "market": "MASK_USDT",
-        "spread": "3,04"
+        "spread": "3.06"
       },
       {
         "market": "MAVIA_USDT",
-        "spread": "3,85"
+        "spread": "3.82"
       },
       {
         "market": "MEME_USDT",
-        "spread": "2,66"
+        "spread": "2.68"
       },
       {
         "market": "MET_USDC",
-        "spread": "3,69"
+        "spread": "3.65"
       },
       {
         "market": "MFT_USDT",
-        "spread": "199,30"
+        "spread": "199.30"
       },
       {
         "market": "MNT_USDT",
-        "spread": "2,04"
+        "spread": "2.02"
       },
       {
         "market": "MOCA_USDT",
-        "spread": "2,24"
+        "spread": "2.22"
       },
       {
         "market": "MORPHO_USDC",
-        "spread": "2,15"
+        "spread": "2.10"
       },
       {
         "market": "MYRIA_USDT",
-        "spread": "62,50"
+        "spread": "62.10"
       },
       {
         "market": "NEAR_USDC",
-        "spread": "2,66"
+        "spread": "2.53"
       },
       {
         "market": "NEAR_USDT",
-        "spread": "2,01"
+        "spread": "2.13"
       },
       {
         "market": "NIGHT_USDC",
-        "spread": "2,08"
+        "spread": "2.07"
       },
       {
         "market": "NMR_USDT",
-        "spread": "3,51"
+        "spread": "3.40"
       },
       {
         "market": "NOT_USDT",
-        "spread": "4,30"
+        "spread": "4.16"
       },
       {
         "market": "NXPC_USDC",
-        "spread": "3,78"
+        "spread": "3.78"
       },
       {
         "market": "OBT_USDT",
-        "spread": "3,16"
+        "spread": "2.94"
       },
       {
         "market": "OMG_USDT",
-        "spread": "185,51"
+        "spread": "185.51"
       },
       {
         "market": "ONDO_PLN",
-        "spread": "3,74"
+        "spread": "3.85"
       },
       {
         "market": "ONDO_USDC",
-        "spread": "3,45"
+        "spread": "3.15"
       },
       {
         "market": "OPG_USDC",
-        "spread": "2,64"
+        "spread": "2.66"
       },
       {
         "market": "OPN_USDC",
-        "spread": "2,15"
+        "spread": "2.21"
       },
       {
         "market": "OP_PLN",
-        "spread": "2,28"
+        "spread": "2.04"
       },
       {
         "market": "OP_USDC",
-        "spread": "3,26"
+        "spread": "3.73"
       },
       {
         "market": "OP_USDT",
-        "spread": "2,85"
+        "spread": "2.73"
       },
       {
         "market": "ORCA_USDC",
-        "spread": "2,15"
+        "spread": "2.07"
       },
       {
         "market": "PAXG_USDC",
-        "spread": "2,51"
+        "spread": "2.50"
       },
       {
         "market": "PAYB_USDT",
-        "spread": "8,22"
+        "spread": "8.22"
       },
       {
         "market": "PENDLE_USDT",
-        "spread": "2,96"
+        "spread": "3.74"
       },
       {
         "market": "PENGU_PLN",
-        "spread": "3,52"
+        "spread": "3.52"
       },
       {
         "market": "PENGU_USDC",
-        "spread": "3,05"
+        "spread": "3.04"
       },
       {
         "market": "PENGU_USDT",
-        "spread": "3,04"
+        "spread": "3.06"
       },
       {
         "market": "PEPE_USDT",
-        "spread": "3,06"
+        "spread": "3.01"
       },
       {
         "market": "PLSX_USDT",
-        "spread": "45,76"
+        "spread": "45.76"
       },
       {
         "market": "PLS_PLN",
-        "spread": "40,00"
+        "spread": "40.00"
       },
       {
         "market": "PLS_USDT",
-        "spread": "5,19"
+        "spread": "5.19"
       },
       {
         "market": "PNUT_USDC",
-        "spread": "3,07"
+        "spread": "3.06"
       },
       {
         "market": "PNUT_USDT",
-        "spread": "3,07"
+        "spread": "3.10"
       },
       {
         "market": "POL_ETH",
-        "spread": "9,96"
+        "spread": "9.96"
       },
       {
         "market": "POL_USDT",
-        "spread": "3,49"
+        "spread": "3.75"
       },
       {
         "market": "POPCAT_USDC",
-        "spread": "3,11"
+        "spread": "3.13"
       },
       {
         "market": "PRCL_USDC",
-        "spread": "2,75"
+        "spread": "2.65"
       },
       {
         "market": "PRCL_USDT",
-        "spread": "2,75"
+        "spread": "2.65"
       },
       {
         "market": "PRIME_USDT",
-        "spread": "5,12"
+        "spread": "4.87"
       },
       {
         "market": "PUMP_USDC",
-        "spread": "5,06"
+        "spread": "5.00"
       },
       {
         "market": "PYTH_USDC",
-        "spread": "3,43"
+        "spread": "3.25"
       },
       {
         "market": "PYTH_USDT",
-        "spread": "2,34"
+        "spread": "2.39"
       },
       {
         "market": "QNT_USDT",
-        "spread": "2,34"
+        "spread": "2.36"
       },
       {
         "market": "RACA_USDT",
-        "spread": "4,56"
+        "spread": "4.20"
       },
       {
         "market": "RAIN_USDC",
-        "spread": "2,82"
+        "spread": "2.78"
       },
       {
         "market": "RAY_USDC",
-        "spread": "4,47"
+        "spread": "2.83"
       },
       {
         "market": "RAY_USDT",
-        "spread": "2,27"
+        "spread": "2.69"
       },
       {
         "market": "RDNT_USDT",
-        "spread": "7,31"
+        "spread": "11.38"
       },
       {
         "market": "RENDER_USDT",
-        "spread": "3,63"
+        "spread": "3.61"
       },
       {
         "market": "RIVER_USDC",
-        "spread": "3,07"
+        "spread": "3.18"
       },
       {
         "market": "ROBO_USDC",
-        "spread": "2,17"
+        "spread": "2.16"
       },
       {
         "market": "SAHARA_USDC",
-        "spread": "2,60"
+        "spread": "2.25"
       },
       {
         "market": "SAND_USDC",
-        "spread": "3,30"
+        "spread": "3.45"
       },
       {
         "market": "SAND_USDT",
-        "spread": "3,06"
+        "spread": "3.07"
       },
       {
         "market": "SHIB_USDT",
-        "spread": "2,19"
+        "spread": "2.02"
       },
       {
         "market": "SIGN_USDC",
-        "spread": "2,33"
+        "spread": "2.37"
       },
       {
         "market": "SKR_USDC",
-        "spread": "3,68"
+        "spread": "3.74"
       },
       {
         "market": "SKY_USDC",
-        "spread": "3,89"
+        "spread": "3.86"
       },
       {
         "market": "SLP_USDT",
-        "spread": "3,14"
+        "spread": "3.31"
       },
       {
         "market": "SNX_USDT",
-        "spread": "2,53"
+        "spread": "2.75"
       },
       {
         "market": "SPACE_USDC",
-        "spread": "3,72"
+        "spread": "3.82"
       },
       {
         "market": "SPX_USDC",
-        "spread": "2,10"
+        "spread": "2.09"
       },
       {
         "market": "STO_USDC",
-        "spread": "2,13"
+        "spread": "2.16"
       },
       {
         "market": "SUI_PLN",
-        "spread": "3,76"
+        "spread": "3.80"
       },
       {
         "market": "SUI_USDC",
-        "spread": "2,76"
+        "spread": "2.76"
       },
       {
         "market": "SUI_USDT",
-        "spread": "3,52"
+        "spread": "3.51"
       },
       {
         "market": "SUSHI_USDC",
-        "spread": "3,64"
+        "spread": "3.62"
       },
       {
         "market": "SUSHI_USDT",
-        "spread": "4,03"
+        "spread": "3.62"
       },
       {
         "market": "SWEAT_USDT",
-        "spread": "4,48"
+        "spread": "6.55"
       },
       {
         "market": "SXT_USDC",
-        "spread": "3,64"
+        "spread": "3.77"
       },
       {
         "market": "S_USDT",
-        "spread": "3,35"
+        "spread": "3.12"
       },
       {
         "market": "TON_PLN",
-        "spread": "3,88"
+        "spread": "3.84"
+      },
+      {
+        "market": "TON_USDC",
+        "spread": "3.48"
       },
       {
         "market": "TON_USDT",
-        "spread": "3,13"
+        "spread": "3.10"
       },
       {
         "market": "TOSHI_USDC",
-        "spread": "2,67"
+        "spread": "2.64"
       },
       {
         "market": "TRB_USDT",
-        "spread": "2,80"
+        "spread": "2.80"
       },
       {
         "market": "TRIA_USDC",
-        "spread": "3,20"
+        "spread": "3.19"
       },
       {
         "market": "TRUMP_USDC",
-        "spread": "3,10"
+        "spread": "3.04"
       },
       {
         "market": "TRUMP_USDT",
-        "spread": "3,06"
+        "spread": "3.08"
       },
       {
         "market": "TRX_PLN",
-        "spread": "3,86"
+        "spread": "3.83"
       },
       {
         "market": "TRX_USDC",
-        "spread": "3,05"
+        "spread": "3.09"
       },
       {
         "market": "TRX_USDT",
-        "spread": "2,98"
+        "spread": "3.00"
+      },
+      {
+        "market": "UNI_PLN",
+        "spread": "2.07"
       },
       {
         "market": "USELESS_USDC",
-        "spread": "3,83"
+        "spread": "3.75"
       },
       {
         "market": "VELODROME_USDT",
-        "spread": "2,72"
+        "spread": "2.76"
       },
       {
         "market": "VELO_USDC",
-        "spread": "2,90"
+        "spread": "2.74"
       },
       {
         "market": "VELO_USDT",
-        "spread": "2,84"
+        "spread": "2.74"
       },
       {
         "market": "VIRTUAL_USDC",
-        "spread": "3,75"
+        "spread": "3.75"
       },
       {
         "market": "VRA_USDC",
-        "spread": "4,46"
+        "spread": "3.33"
       },
       {
         "market": "VRA_USDT",
-        "spread": "3,89"
+        "spread": "3.33"
       },
       {
         "market": "WAL_USDC",
-        "spread": "4,09"
+        "spread": "3.86"
       },
       {
         "market": "WBT_USDC",
-        "spread": "3,01"
+        "spread": "3.01"
       },
       {
         "market": "WIF_USDC",
-        "spread": "3,10"
+        "spread": "3.11"
       },
       {
         "market": "WIF_USDT",
-        "spread": "2,16"
-      },
-      {
-        "market": "WLD_USDC",
-        "spread": "3,16"
+        "spread": "2.13"
       },
       {
         "market": "WLD_USDT",
-        "spread": "2,07"
+        "spread": "2.12"
       },
       {
         "market": "WLFI_USDC",
-        "spread": "3,98"
+        "spread": "3.98"
       },
       {
         "market": "W_USDT",
-        "spread": "3,34"
+        "spread": "3.30"
       },
       {
         "market": "XAUT_PLN",
-        "spread": "2,01"
+        "spread": "2.00"
       },
       {
         "market": "XAUT_USDC",
-        "spread": "2,01"
+        "spread": "2.01"
       },
       {
         "market": "XCH_USDC",
-        "spread": "3,13"
+        "spread": "3.78"
       },
       {
         "market": "XCH_USDT",
-        "spread": "3,49"
+        "spread": "4.08"
       },
       {
         "market": "XPL_USDC",
-        "spread": "3,43"
+        "spread": "3.44"
       },
       {
         "market": "XTZ_USDC",
-        "spread": "4,40"
+        "spread": "4.10"
       },
       {
         "market": "XTZ_USDT",
-        "spread": "4,13"
+        "spread": "4.36"
       },
       {
         "market": "YFII_USDT",
-        "spread": "98,51"
+        "spread": "98.51"
       },
       {
         "market": "YGG_USDT",
-        "spread": "3,11"
+        "spread": "3.06"
       },
       {
         "market": "ZAMA_USDC",
-        "spread": "3,12"
+        "spread": "3.15"
       },
       {
         "market": "ZEC_USDC",
-        "spread": "192,52"
+        "spread": "192.44"
       },
       {
         "market": "ZEN_USDC",
-        "spread": "3,72"
+        "spread": "3.57"
       },
       {
         "market": "ZORA_USDC",
-        "spread": "3,60"
+        "spread": "3.60"
       },
       {
         "market": "ZRO_USDC",
-        "spread": "3,25"
+        "spread": "3.29"
       },
       {
         "market": "ZRO_USDT",
-        "spread": "3,15"
+        "spread": "3.14"
       }
     ],
     "group3": [

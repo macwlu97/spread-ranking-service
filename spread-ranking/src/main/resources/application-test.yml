@@ -1,0 +1,32 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: spread-ranking-service
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.platform.spreadranking: DEBUG
+    org.springframework.web: INFO
+
+kanga:
+  api:
+    base-url: https://public.kanga.exchange/api
+
+security:
+  bearer-token: ABC123
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

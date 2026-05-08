@@ -6,6 +6,8 @@ import com.platform.spreadranking.api.dto.RankingResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.Instant;
+
 @RestController
 @RequestMapping("/api/v1/spread")
 public class SpreadController {
@@ -31,7 +33,7 @@ public class SpreadController {
 
         return store.get()
                 .map(r -> ResponseEntity.ok(
-                        new RankingResponse(r)
+                        new RankingResponse(Instant.now().toString(), r)
                 ))
                 .orElseGet(() -> ResponseEntity.noContent().build());
     }
