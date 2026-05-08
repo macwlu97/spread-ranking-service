@@ -3,6 +3,7 @@ package com.platform.spreadranking.infrastructure.memory;
 import com.platform.spreadranking.domain.ranking.Ranking;
 import org.springframework.stereotype.Component;
 
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 
 @Component
@@ -14,7 +15,7 @@ public class RankingStore {
         cache.set(ranking);
     }
 
-    public Ranking get() {
-        return cache.get();
+    public Optional<Ranking> get() {
+        return Optional.ofNullable(cache.get());
     }
 }

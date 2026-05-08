@@ -1,0 +1,992 @@
+{
+  "group2": [
+    {
+      "market": "1INCH_USDT",
+      "spread": "3,22"
+    },
+    {
+      "market": "2Z_USDC",
+      "spread": "3,84"
+    },
+    {
+      "market": "AAVE_PLN",
+      "spread": "2,48"
+    },
+    {
+      "market": "AAVE_USDT",
+      "spread": "2,53"
+    },
+    {
+      "market": "ACE_USDT",
+      "spread": "2,92"
+    },
+    {
+      "market": "ADA_PLN",
+      "spread": "2,05"
+    },
+    {
+      "market": "ADA_USDT",
+      "spread": "2,52"
+    },
+    {
+      "market": "AERO_USDC",
+      "spread": "3,58"
+    },
+    {
+      "market": "AGLD_USDT",
+      "spread": "2,81"
+    },
+    {
+      "market": "AIXBT_USDC",
+      "spread": "3,23"
+    },
+    {
+      "market": "ALGO_USDT",
+      "spread": "3,42"
+    },
+    {
+      "market": "APE_USDC",
+      "spread": "2,99"
+    },
+    {
+      "market": "APE_USDT",
+      "spread": "3,23"
+    },
+    {
+      "market": "APIS_PLN",
+      "spread": "31,44"
+    },
+    {
+      "market": "APT_USDC",
+      "spread": "2,09"
+    },
+    {
+      "market": "APT_USDT",
+      "spread": "2,27"
+    },
+    {
+      "market": "ARB_USDT",
+      "spread": "3,70"
+    },
+    {
+      "market": "ARTY_USDT",
+      "spread": "4,62"
+    },
+    {
+      "market": "ASTER_USDC",
+      "spread": "3,57"
+    },
+    {
+      "market": "AVAX_PLN",
+      "spread": "2,52"
+    },
+    {
+      "market": "AVAX_USDT",
+      "spread": "3,08"
+    },
+    {
+      "market": "AVNT_USDC",
+      "spread": "3,16"
+    },
+    {
+      "market": "AXS_USDC",
+      "spread": "3,92"
+    },
+    {
+      "market": "AXS_USDT",
+      "spread": "4,29"
+    },
+    {
+      "market": "AZTEC_USDC",
+      "spread": "3,08"
+    },
+    {
+      "market": "BABY_USDC",
+      "spread": "3,19"
+    },
+    {
+      "market": "BAISHI_USDC",
+      "spread": "162,79"
+    },
+    {
+      "market": "BAND_USDT",
+      "spread": "2,67"
+    },
+    {
+      "market": "BARD_USDC",
+      "spread": "3,80"
+    },
+    {
+      "market": "BCH_USDC",
+      "spread": "3,57"
+    },
+    {
+      "market": "BCH_USDT",
+      "spread": "3,57"
+    },
+    {
+      "market": "BEAM_USDC",
+      "spread": "3,16"
+    },
+    {
+      "market": "BEAM_USDT",
+      "spread": "3,10"
+    },
+    {
+      "market": "BERA_USDC",
+      "spread": "3,82"
+    },
+    {
+      "market": "BERA_USDT",
+      "spread": "3,61"
+    },
+    {
+      "market": "BIGTIME_USDT",
+      "spread": "3,63"
+    },
+    {
+      "market": "BLUR_USDT",
+      "spread": "3,45"
+    },
+    {
+      "market": "BNB_PLN",
+      "spread": "2,93"
+    },
+    {
+      "market": "BNB_USDT",
+      "spread": "2,02"
+    },
+    {
+      "market": "BONE_USDT",
+      "spread": "3,45"
+    },
+    {
+      "market": "BONK_PLN",
+      "spread": "3,67"
+    },
+    {
+      "market": "BONK_USDC",
+      "spread": "4,40"
+    },
+    {
+      "market": "BONK_USDT",
+      "spread": "2,56"
+    },
+    {
+      "market": "BRETT_USDC",
+      "spread": "3,20"
+    },
+    {
+      "market": "BRETT_USDT",
+      "spread": "3,12"
+    },
+    {
+      "market": "BTCV_BTC",
+      "spread": "2,02"
+    },
+    {
+      "market": "BTC_EURQ",
+      "spread": "4,60"
+    },
+    {
+      "market": "BTC_EURR",
+      "spread": "5,50"
+    },
+    {
+      "market": "BTEC_USDT",
+      "spread": "39,59"
+    },
+    {
+      "market": "BWAX_PLN",
+      "spread": "52,76"
+    },
+    {
+      "market": "CAKE_USDT",
+      "spread": "2,13"
+    },
+    {
+      "market": "CELR_USDT",
+      "spread": "5,09"
+    },
+    {
+      "market": "CGPT_USDC",
+      "spread": "2,17"
+    },
+    {
+      "market": "CGPT_USDT",
+      "spread": "2,17"
+    },
+    {
+      "market": "CHZ_USDC",
+      "spread": "2,18"
+    },
+    {
+      "market": "CHZ_USDT",
+      "spread": "2,15"
+    },
+    {
+      "market": "COMB_PLN",
+      "spread": "36,60"
+    },
+    {
+      "market": "COMP_USDC",
+      "spread": "2,29"
+    },
+    {
+      "market": "COOKIE_USDC",
+      "spread": "3,30"
+    },
+    {
+      "market": "COOKIE_USDT",
+      "spread": "3,30"
+    },
+    {
+      "market": "CORE_USDC",
+      "spread": "4,48"
+    },
+    {
+      "market": "CRO_USDC",
+      "spread": "3,67"
+    },
+    {
+      "market": "CRV_USDT",
+      "spread": "3,15"
+    },
+    {
+      "market": "CXT_USDT",
+      "spread": "3,44"
+    },
+    {
+      "market": "DAO_USDT",
+      "spread": "4,42"
+    },
+    {
+      "market": "DASH_PLN",
+      "spread": "3,14"
+    },
+    {
+      "market": "DASH_USDC",
+      "spread": "3,11"
+    },
+    {
+      "market": "DASH_USDT",
+      "spread": "3,15"
+    },
+    {
+      "market": "DEP_USDT",
+      "spread": "6,02"
+    },
+    {
+      "market": "DODO_USDT",
+      "spread": "3,06"
+    },
+    {
+      "market": "DOGE_USDT",
+      "spread": "2,03"
+    },
+    {
+      "market": "DOT_USDT",
+      "spread": "2,22"
+    },
+    {
+      "market": "EDGE_USDC",
+      "spread": "2,04"
+    },
+    {
+      "market": "EHEX_USDT",
+      "spread": "31,28"
+    },
+    {
+      "market": "EIGEN_USDC",
+      "spread": "3,17"
+    },
+    {
+      "market": "ENA_PLN",
+      "spread": "2,05"
+    },
+    {
+      "market": "ENA_USDC",
+      "spread": "2,07"
+    },
+    {
+      "market": "ENA_USDT",
+      "spread": "2,25"
+    },
+    {
+      "market": "ETC_PLN",
+      "spread": "4,07"
+    },
+    {
+      "market": "ETC_USDC",
+      "spread": "3,52"
+    },
+    {
+      "market": "ETHFI_USDC",
+      "spread": "3,13"
+    },
+    {
+      "market": "ETHW_USDC",
+      "spread": "2,39"
+    },
+    {
+      "market": "ETHW_USDT",
+      "spread": "2,29"
+    },
+    {
+      "market": "EURQ_USDC",
+      "spread": "2,04"
+    },
+    {
+      "market": "EURR_USDC",
+      "spread": "2,71"
+    },
+    {
+      "market": "FARTCOIN_USDC",
+      "spread": "3,28"
+    },
+    {
+      "market": "FET_USDC",
+      "spread": "3,65"
+    },
+    {
+      "market": "FET_USDT",
+      "spread": "3,61"
+    },
+    {
+      "market": "FIL_USDC",
+      "spread": "3,81"
+    },
+    {
+      "market": "FIL_USDT",
+      "spread": "3,73"
+    },
+    {
+      "market": "FLOKI_USDC",
+      "spread": "3,18"
+    },
+    {
+      "market": "FLOKI_USDT",
+      "spread": "2,48"
+    },
+    {
+      "market": "FLT_USDC",
+      "spread": "3,91"
+    },
+    {
+      "market": "GALA_USDC",
+      "spread": "6,18"
+    },
+    {
+      "market": "GALA_USDT",
+      "spread": "4,49"
+    },
+    {
+      "market": "GENIUS_USDC",
+      "spread": "3,14"
+    },
+    {
+      "market": "GMX_USDT",
+      "spread": "3,44"
+    },
+    {
+      "market": "GODS_USDT",
+      "spread": "3,91"
+    },
+    {
+      "market": "GRT_USDC",
+      "spread": "3,17"
+    },
+    {
+      "market": "GRT_USDT",
+      "spread": "3,17"
+    },
+    {
+      "market": "HERB_USDT",
+      "spread": "144,74"
+    },
+    {
+      "market": "HEX_USDT",
+      "spread": "51,85"
+    },
+    {
+      "market": "HOME_USDC",
+      "spread": "3,99"
+    },
+    {
+      "market": "ICNT_USDC",
+      "spread": "3,03"
+    },
+    {
+      "market": "ICP_USDC",
+      "spread": "3,37"
+    },
+    {
+      "market": "ICP_USDT",
+      "spread": "2,82"
+    },
+    {
+      "market": "ILV_USDT",
+      "spread": "147,91"
+    },
+    {
+      "market": "IMX_USDC",
+      "spread": "4,37"
+    },
+    {
+      "market": "IMX_USDT",
+      "spread": "3,81"
+    },
+    {
+      "market": "INC_USDT",
+      "spread": "60,14"
+    },
+    {
+      "market": "INJ_USDC",
+      "spread": "3,60"
+    },
+    {
+      "market": "INJ_USDT",
+      "spread": "3,60"
+    },
+    {
+      "market": "IO_USDT",
+      "spread": "2,23"
+    },
+    {
+      "market": "JOE_USDT",
+      "spread": "3,73"
+    },
+    {
+      "market": "JTO_USDC",
+      "spread": "2,20"
+    },
+    {
+      "market": "JUP_USDC",
+      "spread": "3,41"
+    },
+    {
+      "market": "JUP_USDT",
+      "spread": "2,69"
+    },
+    {
+      "market": "KAITO_USDC",
+      "spread": "2,06"
+    },
+    {
+      "market": "KITE_USDC",
+      "spread": "2,11"
+    },
+    {
+      "market": "KNC_USDT",
+      "spread": "2,22"
+    },
+    {
+      "market": "KSM_USDC",
+      "spread": "3,98"
+    },
+    {
+      "market": "KSM_USDT",
+      "spread": "3,52"
+    },
+    {
+      "market": "LA_USDC",
+      "spread": "4,06"
+    },
+    {
+      "market": "LDO_USDC",
+      "spread": "3,71"
+    },
+    {
+      "market": "LDO_USDT",
+      "spread": "2,60"
+    },
+    {
+      "market": "LIT_USDC",
+      "spread": "3,37"
+    },
+    {
+      "market": "LPT_USDT",
+      "spread": "3,09"
+    },
+    {
+      "market": "LRC_USDT",
+      "spread": "3,19"
+    },
+    {
+      "market": "LTC_EUR",
+      "spread": "4,58"
+    },
+    {
+      "market": "LTC_PLN",
+      "spread": "2,38"
+    },
+    {
+      "market": "MANA_USDC",
+      "spread": "4,18"
+    },
+    {
+      "market": "MANA_USDT",
+      "spread": "2,61"
+    },
+    {
+      "market": "MASK_USDT",
+      "spread": "3,04"
+    },
+    {
+      "market": "MAVIA_USDT",
+      "spread": "3,85"
+    },
+    {
+      "market": "MEME_USDT",
+      "spread": "2,66"
+    },
+    {
+      "market": "MET_USDC",
+      "spread": "3,69"
+    },
+    {
+      "market": "MFT_USDT",
+      "spread": "199,30"
+    },
+    {
+      "market": "MNT_USDT",
+      "spread": "2,04"
+    },
+    {
+      "market": "MOCA_USDT",
+      "spread": "2,24"
+    },
+    {
+      "market": "MORPHO_USDC",
+      "spread": "2,15"
+    },
+    {
+      "market": "MYRIA_USDT",
+      "spread": "62,50"
+    },
+    {
+      "market": "NEAR_USDC",
+      "spread": "2,66"
+    },
+    {
+      "market": "NEAR_USDT",
+      "spread": "2,01"
+    },
+    {
+      "market": "NIGHT_USDC",
+      "spread": "2,08"
+    },
+    {
+      "market": "NMR_USDT",
+      "spread": "3,51"
+    },
+    {
+      "market": "NOT_USDT",
+      "spread": "4,30"
+    },
+    {
+      "market": "NXPC_USDC",
+      "spread": "3,78"
+    },
+    {
+      "market": "OBT_USDT",
+      "spread": "3,16"
+    },
+    {
+      "market": "OMG_USDT",
+      "spread": "185,51"
+    },
+    {
+      "market": "ONDO_PLN",
+      "spread": "3,74"
+    },
+    {
+      "market": "ONDO_USDC",
+      "spread": "3,45"
+    },
+    {
+      "market": "OPG_USDC",
+      "spread": "2,64"
+    },
+    {
+      "market": "OPN_USDC",
+      "spread": "2,15"
+    },
+    {
+      "market": "OP_PLN",
+      "spread": "2,28"
+    },
+    {
+      "market": "OP_USDC",
+      "spread": "3,26"
+    },
+    {
+      "market": "OP_USDT",
+      "spread": "2,85"
+    },
+    {
+      "market": "ORCA_USDC",
+      "spread": "2,15"
+    },
+    {
+      "market": "PAXG_USDC",
+      "spread": "2,51"
+    },
+    {
+      "market": "PAYB_USDT",
+      "spread": "8,22"
+    },
+    {
+      "market": "PENDLE_USDT",
+      "spread": "2,96"
+    },
+    {
+      "market": "PENGU_PLN",
+      "spread": "3,52"
+    },
+    {
+      "market": "PENGU_USDC",
+      "spread": "3,05"
+    },
+    {
+      "market": "PENGU_USDT",
+      "spread": "3,04"
+    },
+    {
+      "market": "PEPE_USDT",
+      "spread": "3,06"
+    },
+    {
+      "market": "PLSX_USDT",
+      "spread": "45,76"
+    },
+    {
+      "market": "PLS_PLN",
+      "spread": "40,00"
+    },
+    {
+      "market": "PLS_USDT",
+      "spread": "5,19"
+    },
+    {
+      "market": "PNUT_USDC",
+      "spread": "3,07"
+    },
+    {
+      "market": "PNUT_USDT",
+      "spread": "3,07"
+    },
+    {
+      "market": "POL_ETH",
+      "spread": "9,96"
+    },
+    {
+      "market": "POL_USDT",
+      "spread": "3,49"
+    },
+    {
+      "market": "POPCAT_USDC",
+      "spread": "3,11"
+    },
+    {
+      "market": "PRCL_USDC",
+      "spread": "2,75"
+    },
+    {
+      "market": "PRCL_USDT",
+      "spread": "2,75"
+    },
+    {
+      "market": "PRIME_USDT",
+      "spread": "5,12"
+    },
+    {
+      "market": "PUMP_USDC",
+      "spread": "5,06"
+    },
+    {
+      "market": "PYTH_USDC",
+      "spread": "3,43"
+    },
+    {
+      "market": "PYTH_USDT",
+      "spread": "2,34"
+    },
+    {
+      "market": "QNT_USDT",
+      "spread": "2,34"
+    },
+    {
+      "market": "RACA_USDT",
+      "spread": "4,56"
+    },
+    {
+      "market": "RAIN_USDC",
+      "spread": "2,82"
+    },
+    {
+      "market": "RAY_USDC",
+      "spread": "4,47"
+    },
+    {
+      "market": "RAY_USDT",
+      "spread": "2,27"
+    },
+    {
+      "market": "RDNT_USDT",
+      "spread": "7,31"
+    },
+    {
+      "market": "RENDER_USDT",
+      "spread": "3,63"
+    },
+    {
+      "market": "RIVER_USDC",
+      "spread": "3,07"
+    },
+    {
+      "market": "ROBO_USDC",
+      "spread": "2,17"
+    },
+    {
+      "market": "SAHARA_USDC",
+      "spread": "2,60"
+    },
+    {
+      "market": "SAND_USDC",
+      "spread": "3,30"
+    },
+    {
+      "market": "SAND_USDT",
+      "spread": "3,06"
+    },
+    {
+      "market": "SHIB_USDT",
+      "spread": "2,19"
+    },
+    {
+      "market": "SIGN_USDC",
+      "spread": "2,33"
+    },
+    {
+      "market": "SKR_USDC",
+      "spread": "3,68"
+    },
+    {
+      "market": "SKY_USDC",
+      "spread": "3,89"
+    },
+    {
+      "market": "SLP_USDT",
+      "spread": "3,14"
+    },
+    {
+      "market": "SNX_USDT",
+      "spread": "2,53"
+    },
+    {
+      "market": "SPACE_USDC",
+      "spread": "3,72"
+    },
+    {
+      "market": "SPX_USDC",
+      "spread": "2,10"
+    },
+    {
+      "market": "STO_USDC",
+      "spread": "2,13"
+    },
+    {
+      "market": "SUI_PLN",
+      "spread": "3,76"
+    },
+    {
+      "market": "SUI_USDC",
+      "spread": "2,76"
+    },
+    {
+      "market": "SUI_USDT",
+      "spread": "3,52"
+    },
+    {
+      "market": "SUSHI_USDC",
+      "spread": "3,64"
+    },
+    {
+      "market": "SUSHI_USDT",
+      "spread": "4,03"
+    },
+    {
+      "market": "SWEAT_USDT",
+      "spread": "4,48"
+    },
+    {
+      "market": "SXT_USDC",
+      "spread": "3,64"
+    },
+    {
+      "market": "S_USDT",
+      "spread": "3,35"
+    },
+    {
+      "market": "TON_PLN",
+      "spread": "3,88"
+    },
+    {
+      "market": "TON_USDT",
+      "spread": "3,13"
+    },
+    {
+      "market": "TOSHI_USDC",
+      "spread": "2,67"
+    },
+    {
+      "market": "TRB_USDT",
+      "spread": "2,80"
+    },
+    {
+      "market": "TRIA_USDC",
+      "spread": "3,20"
+    },
+    {
+      "market": "TRUMP_USDC",
+      "spread": "3,10"
+    },
+    {
+      "market": "TRUMP_USDT",
+      "spread": "3,06"
+    },
+    {
+      "market": "TRX_PLN",
+      "spread": "3,86"
+    },
+    {
+      "market": "TRX_USDC",
+      "spread": "3,05"
+    },
+    {
+      "market": "TRX_USDT",
+      "spread": "2,98"
+    },
+    {
+      "market": "USELESS_USDC",
+      "spread": "3,83"
+    },
+    {
+      "market": "VELODROME_USDT",
+      "spread": "2,72"
+    },
+    {
+      "market": "VELO_USDC",
+      "spread": "2,90"
+    },
+    {
+      "market": "VELO_USDT",
+      "spread": "2,84"
+    },
+    {
+      "market": "VIRTUAL_USDC",
+      "spread": "3,75"
+    },
+    {
+      "market": "VRA_USDC",
+      "spread": "4,46"
+    },
+    {
+      "market": "VRA_USDT",
+      "spread": "3,89"
+    },
+    {
+      "market": "WAL_USDC",
+      "spread": "4,09"
+    },
+    {
+      "market": "WBT_USDC",
+      "spread": "3,01"
+    },
+    {
+      "market": "WIF_USDC",
+      "spread": "3,10"
+    },
+    {
+      "market": "WIF_USDT",
+      "spread": "2,16"
+    },
+    {
+      "market": "WLD_USDC",
+      "spread": "3,16"
+    },
+    {
+      "market": "WLD_USDT",
+      "spread": "2,07"
+    },
+    {
+      "market": "WLFI_USDC",
+      "spread": "3,98"
+    },
+    {
+      "market": "W_USDT",
+      "spread": "3,34"
+    },
+    {
+      "market": "XAUT_PLN",
+      "spread": "2,01"
+    },
+    {
+      "market": "XAUT_USDC",
+      "spread": "2,01"
+    },
+    {
+      "market": "XCH_USDC",
+      "spread": "3,13"
+    },
+    {
+      "market": "XCH_USDT",
+      "spread": "3,49"
+    },
+    {
+      "market": "XPL_USDC",
+      "spread": "3,43"
+    },
+    {
+      "market": "XTZ_USDC",
+      "spread": "4,40"
+    },
+    {
+      "market": "XTZ_USDT",
+      "spread": "4,13"
+    },
+    {
+      "market": "YFII_USDT",
+      "spread": "98,51"
+    },
+    {
+      "market": "YGG_USDT",
+      "spread": "3,11"
+    },
+    {
+      "market": "ZAMA_USDC",
+      "spread": "3,12"
+    },
+    {
+      "market": "ZEC_USDC",
+      "spread": "192,52"
+    },
+    {
+      "market": "ZEN_USDC",
+      "spread": "3,72"
+    },
+    {
+      "market": "ZORA_USDC",
+      "spread": "3,60"
+    },
+    {
+      "market": "ZRO_USDC",
+      "spread": "3,25"
+    },
+    {
+      "market": "ZRO_USDT",
+      "spread": "3,15"
+    }
+  ]
+}

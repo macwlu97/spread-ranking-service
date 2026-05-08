@@ -13,18 +13,32 @@ import java.util.List;
 @Component
 public class KangaOrderBookAdapter implements OrderBookProviderPort {
 
-    private final RestClient restClient = RestClient.create();
+    private final RestClient restClient;
+    private final KangaApiProperties properties;
+
+    public KangaOrderBookAdapter(KangaApiProperties properties) {
+
+        this.properties = properties;
+
+        this.restClient = RestClient.builder()
+                .baseUrl(properties.baseUrl())
+                .build();
+    }
 
     @Override
     public OrderBook getOrderBook(Market market) {
 
         var dto = restClient.get()
-                .uri("https://public.kanga.exchange/api/market/orderbook/{market}", market.tickerId())
+                .uri("/market/orderbook/{market}", market.tickerId())
                 .retrieve()
                 .body(OrderBookDto.class);
 
         if (dto == null) {
-            return new OrderBook(market, List.of(), List.of());
+            return new OrderBook(
+                    market,
+                    List.of(),
+                    List.of()
+            );
         }
 
         return new OrderBook(
@@ -35,7 +49,10 @@ public class KangaOrderBookAdapter implements OrderBookProviderPort {
     }
 
     private List<PriceLevel> map(List<String[]> input) {
-        if (input == null) return List.of();
+
+        if (input == null) {
+            return List.of();
+        }
 
         return input.stream()
                 .map(arr -> new PriceLevel(
@@ -49,5 +66,6 @@ public class KangaOrderBookAdapter implements OrderBookProviderPort {
             List<String[]> bids,
             List<String[]> asks,
             String ticker_id
-    ) {}
+    ) {
+    }
 }

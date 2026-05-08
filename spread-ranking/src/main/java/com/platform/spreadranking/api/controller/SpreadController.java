@@ -3,12 +3,11 @@ package com.platform.spreadranking.api.controller;
 import com.platform.spreadranking.application.port.in.CalculateRankingUseCase;
 import com.platform.spreadranking.infrastructure.memory.RankingStore;
 import com.platform.spreadranking.api.dto.RankingResponse;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.Instant;
-
 @RestController
-@RequestMapping("/api/spread")
+@RequestMapping("/api/v1/spread")
 public class SpreadController {
 
     private final CalculateRankingUseCase useCase;
@@ -21,16 +20,19 @@ public class SpreadController {
     }
 
     @PostMapping("/calculate")
-    public void calculate() {
+    public ResponseEntity<Void> calculate() {
         var result = useCase.calculate();
         store.save(result);
+        return ResponseEntity.accepted().build();
     }
 
     @GetMapping("/ranking")
-    public RankingResponse get() {
-        return new RankingResponse(
-                Instant.now(),
-                store.get()
-        );
+    public ResponseEntity<RankingResponse> get() {
+
+        return store.get()
+                .map(r -> ResponseEntity.ok(
+                        new RankingResponse(r)
+                ))
+                .orElseGet(() -> ResponseEntity.noContent().build());
     }
 }

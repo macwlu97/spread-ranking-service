@@ -1,0 +1,348 @@
+{
+  "group1": [
+    {
+      "market": "AAVE_USDC",
+      "spread": "1,19"
+    },
+    {
+      "market": "ADA_USDC",
+      "spread": "1,37"
+    },
+    {
+      "market": "ALGO_PLN",
+      "spread": "1,08"
+    },
+    {
+      "market": "ALGO_USDC",
+      "spread": "1,46"
+    },
+    {
+      "market": "ARB_PLN",
+      "spread": "1,43"
+    },
+    {
+      "market": "ARB_USDC",
+      "spread": "1,38"
+    },
+    {
+      "market": "AVAX_USDC",
+      "spread": "1,13"
+    },
+    {
+      "market": "BAR_USDC",
+      "spread": "1,13"
+    },
+    {
+      "market": "BAT_USDT",
+      "spread": "1,95"
+    },
+    {
+      "market": "BNB_USDC",
+      "spread": "1,87"
+    },
+    {
+      "market": "BTC_EUR",
+      "spread": "0,50"
+    },
+    {
+      "market": "BTC_EURC",
+      "spread": "1,29"
+    },
+    {
+      "market": "BTC_PLN",
+      "spread": "0,77"
+    },
+    {
+      "market": "BTC_USD",
+      "spread": "1,49"
+    },
+    {
+      "market": "BTC_USDC",
+      "spread": "0,27"
+    },
+    {
+      "market": "BTC_USDQ",
+      "spread": "1,30"
+    },
+    {
+      "market": "BTC_USDR",
+      "spread": "1,06"
+    },
+    {
+      "market": "BTC_USDT",
+      "spread": "0,26"
+    },
+    {
+      "market": "CHIP_USDC",
+      "spread": "1,85"
+    },
+    {
+      "market": "DOGE_PLN",
+      "spread": "1,40"
+    },
+    {
+      "market": "DOGE_USDC",
+      "spread": "1,10"
+    },
+    {
+      "market": "DOT_PLN",
+      "spread": "1,56"
+    },
+    {
+      "market": "DOT_USDC",
+      "spread": "1,26"
+    },
+    {
+      "market": "ETC_USDT",
+      "spread": "1,53"
+    },
+    {
+      "market": "ETH_BTC",
+      "spread": "0,42"
+    },
+    {
+      "market": "ETH_EUR",
+      "spread": "0,51"
+    },
+    {
+      "market": "ETH_EURC",
+      "spread": "0,31"
+    },
+    {
+      "market": "ETH_PLN",
+      "spread": "0,86"
+    },
+    {
+      "market": "ETH_USDC",
+      "spread": "0,24"
+    },
+    {
+      "market": "ETH_USDT",
+      "spread": "0,20"
+    },
+    {
+      "market": "EURC_PLN",
+      "spread": "0,70"
+    },
+    {
+      "market": "EURC_USDC",
+      "spread": "1,05"
+    },
+    {
+      "market": "GFK_USDC",
+      "spread": "0,29"
+    },
+    {
+      "market": "GRASS_USDC",
+      "spread": "2,00"
+    },
+    {
+      "market": "H_USDC",
+      "spread": "1,98"
+    },
+    {
+      "market": "INTER_USDC",
+      "spread": "0,97"
+    },
+    {
+      "market": "JASMY_USDC",
+      "spread": "0,13"
+    },
+    {
+      "market": "JASMY_USDT",
+      "spread": "0,50"
+    },
+    {
+      "market": "JTO_USDT",
+      "spread": "1,94"
+    },
+    {
+      "market": "KETH_ETH",
+      "spread": "0,12"
+    },
+    {
+      "market": "KNG_PLN",
+      "spread": "0,65"
+    },
+    {
+      "market": "KNG_USDC",
+      "spread": "0,95"
+    },
+    {
+      "market": "KNG_USDT",
+      "spread": "1,12"
+    },
+    {
+      "market": "LEG_USDC",
+      "spread": "0,21"
+    },
+    {
+      "market": "LINK_PLN",
+      "spread": "1,30"
+    },
+    {
+      "market": "LINK_USDC",
+      "spread": "1,56"
+    },
+    {
+      "market": "LINK_USDT",
+      "spread": "1,93"
+    },
+    {
+      "market": "LTC_USDC",
+      "spread": "1,13"
+    },
+    {
+      "market": "LTC_USDT",
+      "spread": "1,48"
+    },
+    {
+      "market": "NAKA_USDT",
+      "spread": "0,52"
+    },
+    {
+      "market": "ONDO_USDT",
+      "spread": "1,82"
+    },
+    {
+      "market": "PAXG_PLN",
+      "spread": "1,10"
+    },
+    {
+      "market": "PEPE_PLN",
+      "spread": "1,31"
+    },
+    {
+      "market": "PEPE_USDC",
+      "spread": "0,94"
+    },
+    {
+      "market": "POL_PLN",
+      "spread": "1,44"
+    },
+    {
+      "market": "POL_USDC",
+      "spread": "1,30"
+    },
+    {
+      "market": "RENDER_PLN",
+      "spread": "1,42"
+    },
+    {
+      "market": "RENDER_USDC",
+      "spread": "1,34"
+    },
+    {
+      "market": "SAM_USDC",
+      "spread": "0,28"
+    },
+    {
+      "market": "SHIB_PLN",
+      "spread": "1,35"
+    },
+    {
+      "market": "SHIB_USDC",
+      "spread": "1,10"
+    },
+    {
+      "market": "SOCAP_USDT",
+      "spread": "1,83"
+    },
+    {
+      "market": "SOL_PLN",
+      "spread": "0,91"
+    },
+    {
+      "market": "SOL_USDC",
+      "spread": "0,61"
+    },
+    {
+      "market": "SOL_USDT",
+      "spread": "1,33"
+    },
+    {
+      "market": "S_USDC",
+      "spread": "1,74"
+    },
+    {
+      "market": "TON_USDC",
+      "spread": "1,60"
+    },
+    {
+      "market": "UNI_PLN",
+      "spread": "1,95"
+    },
+    {
+      "market": "UNI_USDC",
+      "spread": "1,03"
+    },
+    {
+      "market": "UNI_USDT",
+      "spread": "1,98"
+    },
+    {
+      "market": "USDC_PLN",
+      "spread": "0,14"
+    },
+    {
+      "market": "USDQ_USDC",
+      "spread": "1,40"
+    },
+    {
+      "market": "USDR_USDC",
+      "spread": "1,09"
+    },
+    {
+      "market": "USDT_EUR",
+      "spread": "0,52"
+    },
+    {
+      "market": "USDT_PLN",
+      "spread": "0,33"
+    },
+    {
+      "market": "USDT_UAHG",
+      "spread": "0,48"
+    },
+    {
+      "market": "USDT_USD",
+      "spread": "0,79"
+    },
+    {
+      "market": "USDT_USDC",
+      "spread": "0,40"
+    },
+    {
+      "market": "USD_PLN",
+      "spread": "1,39"
+    },
+    {
+      "market": "VVV_USDC",
+      "spread": "1,93"
+    },
+    {
+      "market": "WBTC_BTC",
+      "spread": "0,01"
+    },
+    {
+      "market": "WLD_PLN",
+      "spread": "1,19"
+    },
+    {
+      "market": "ZEC_PLN",
+      "spread": "1,52"
+    },
+    {
+      "market": "kAMCA_USD",
+      "spread": "0,04"
+    },
+    {
+      "market": "kERA_EUR",
+      "spread": "0,01"
+    },
+    {
+      "market": "kPLK_PLN",
+      "spread": "0,01"
+    }
+  ]
+}

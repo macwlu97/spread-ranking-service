@@ -5,13 +5,20 @@ import com.platform.spreadranking.application.port.out.MarketProviderPort;
 import com.platform.spreadranking.application.port.out.OrderBookProviderPort;
 import com.platform.spreadranking.domain.market.Market;
 import com.platform.spreadranking.domain.ranking.Ranking;
+import com.platform.spreadranking.domain.ranking.Ranking.Item;
 import com.platform.spreadranking.domain.spread.SpreadCalculator;
+import org.springframework.stereotype.Service;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+@Service
 public class CalculateRankingService implements CalculateRankingUseCase {
+
+    private static final Comparator<Item> BY_MARKET =
+            Comparator.comparing(Item::market);
 
     private final MarketProviderPort marketProvider;
     private final OrderBookProviderPort orderBookProvider;
@@ -30,36 +37,41 @@ public class CalculateRankingService implements CalculateRankingUseCase {
     @Override
     public Ranking calculate() {
 
-        List<Ranking.Item> g1 = new ArrayList<>();
-        List<Ranking.Item> g2 = new ArrayList<>();
-        List<Ranking.Item> g3 = new ArrayList<>();
+        List<Item> group1 = new ArrayList<>();
+        List<Item> group2 = new ArrayList<>();
+        List<Item> group3 = new ArrayList<>();
 
         for (Market market : marketProvider.getMarkets()) {
 
-            var ob = orderBookProvider.getOrderBook(market);
+            var orderBook = orderBookProvider.getOrderBook(market);
 
-            var spreadOpt = spreadCalculator.calculate(ob);
+            var spreadOpt = spreadCalculator.calculate(orderBook);
 
+            // GROUP 3 → missing data
             if (spreadOpt.isEmpty()) {
-                g3.add(new Ranking.Item(market.tickerId(), "N/A"));
+                group3.add(new Item(market.tickerId(), "N/A"));
                 continue;
             }
 
             var spread = spreadOpt.get();
 
+            var formattedValue = String.format("%.2f", spread.value().doubleValue());
+
             if (spread.isLow()) {
-                g1.add(new Ranking.Item(market.tickerId(), spread.value().toString()));
+                group1.add(new Item(market.tickerId(), formattedValue));
             } else {
-                g2.add(new Ranking.Item(market.tickerId(), spread.value().toString()));
+                group2.add(new Item(market.tickerId(), formattedValue));
             }
         }
 
-        Comparator<Ranking.Item> sort = Comparator.comparing(Ranking.Item::market);
+        group1.sort(BY_MARKET);
+        group2.sort(BY_MARKET);
+        group3.sort(BY_MARKET);
 
-        g1.sort(sort);
-        g2.sort(sort);
-        g3.sort(sort);
-
-        return new Ranking(g1, g2, g3);
+        return new Ranking(
+                List.copyOf(group1),
+                List.copyOf(group2),
+                List.copyOf(group3)
+        );
     }
 }

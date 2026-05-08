@@ -7,6 +7,9 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Optional;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SpreadCalculator {
 
     private static final BigDecimal ZERO = BigDecimal.ZERO;
