@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.14</version>
+		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.platform</groupId>
 	<artifactId>spread-ranking-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>Platform</name>
+	<description>Service for calculating market spread ranking</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -42,6 +42,10 @@
 		</dependency>
 	</dependencies>
 
+	<modules>
+		<module>spread-ranking</module>
+	</modules>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -51,4 +55,5 @@
 		</plugins>
 	</build>
 
+	<packaging>pom</packaging>
 </project>
