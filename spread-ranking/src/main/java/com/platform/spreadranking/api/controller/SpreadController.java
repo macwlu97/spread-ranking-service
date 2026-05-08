@@ -12,28 +12,28 @@ import java.time.Instant;
 @RequestMapping("/api/v1/spread")
 public class SpreadController {
 
-    private final CalculateRankingUseCase useCase;
-    private final RankingStore store;
+    private final CalculateRankingUseCase calculateRankingUseCase;
+    private final RankingStore rankingStore;
 
-    public SpreadController(CalculateRankingUseCase useCase,
-                            RankingStore store) {
-        this.useCase = useCase;
-        this.store = store;
+    public SpreadController(CalculateRankingUseCase calculateRankingUseCase,
+                            RankingStore rankingStore) {
+        this.calculateRankingUseCase = calculateRankingUseCase;
+        this.rankingStore = rankingStore;
     }
 
     @PostMapping("/calculate")
-    public ResponseEntity<Void> calculate() {
-        var result = useCase.calculate();
-        store.save(result);
+    public ResponseEntity<Void> calculateRanking() {
+        var result = calculateRankingUseCase.calculate();
+        rankingStore.save(result);
         return ResponseEntity.accepted().build();
     }
 
     @GetMapping("/ranking")
-    public ResponseEntity<RankingResponse> get() {
+    public ResponseEntity<RankingResponse> getRanking() {
 
-        return store.get()
+        return rankingStore.get()
                 .map(r -> ResponseEntity.ok(
-                        new RankingResponse(Instant.now().toString(), r)
+                        new RankingResponse(Instant.now(), r)
                 ))
                 .orElseGet(() -> ResponseEntity.noContent().build());
     }

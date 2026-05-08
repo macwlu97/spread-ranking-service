@@ -47,7 +47,7 @@ public class CalculateRankingService implements CalculateRankingUseCase {
 
             var spreadOpt = spreadCalculator.calculate(orderBook);
 
-            // GROUP 3 → missing / invalid data
+            // GROUP 3 - missing / invalid data
             if (spreadOpt.isEmpty() || spreadOpt.get().value() == null) {
                 group3.add(new Item(market.tickerId(), "N/A"));
                 continue;
