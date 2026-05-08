@@ -1,36 +1,20 @@
 package com.platform.spreadranking.domain.spread;
 
-import com.platform.spreadranking.domain.market.OrderBook;
-
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 public record Spread(BigDecimal value) {
 
-    public static Spread from(OrderBook ob) {
-        if (!ob.isValid()) {
-            return new Spread(null);
-        }
+    private static final BigDecimal THRESHOLD = BigDecimal.valueOf(2);
 
-        BigDecimal bid = ob.bestBid();
-        BigDecimal ask = ob.bestAsk();
-
-        BigDecimal numerator = ask.subtract(bid);
-        BigDecimal denominator = ask.add(bid)
-                .divide(BigDecimal.valueOf(2), RoundingMode.HALF_UP);
-
-        BigDecimal result = numerator
-                .divide(denominator, 6, RoundingMode.HALF_UP)
-                .multiply(BigDecimal.valueOf(100));
-
-        return new Spread(result);
-    }
-
-    public boolean isValid() {
-        return value != null;
+    public static Spread of(BigDecimal value) {
+        return new Spread(value);
     }
 
     public boolean isLow() {
-        return value.compareTo(BigDecimal.valueOf(2)) <= 0;
+        return value.compareTo(THRESHOLD) <= 0;
+    }
+
+    public boolean isHigh() {
+        return value.compareTo(THRESHOLD) > 0;
     }
 }

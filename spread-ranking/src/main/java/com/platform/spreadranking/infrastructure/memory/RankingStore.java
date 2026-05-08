@@ -1,16 +1,20 @@
 package com.platform.spreadranking.infrastructure.memory;
 
 import com.platform.spreadranking.domain.ranking.Ranking;
+import org.springframework.stereotype.Component;
 
+import java.util.concurrent.atomic.AtomicReference;
+
+@Component
 public class RankingStore {
 
-    private volatile Ranking ranking;
+    private final AtomicReference<Ranking> cache = new AtomicReference<>();
 
     public void save(Ranking ranking) {
-        this.ranking = ranking;
+        cache.set(ranking);
     }
 
     public Ranking get() {
-        return ranking;
+        return cache.get();
     }
 }
