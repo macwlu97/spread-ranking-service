@@ -24,14 +24,14 @@ security:
 resilience4j:
   retry:
     instances:
-      kangaApi: # Dla KangaMarketAdapter
+      kangaApi: # KangaMarketAdapter
         maxAttempts: 3
         waitDuration: 500ms
         retryExceptions:
           - java.io.IOException
           - org.springframework.web.client.ResourceAccessException
           - org.springframework.web.client.HttpServerErrorException
-      kangaOrderBook: # Dla KangaOrderBookAdapter
+      kangaOrderBook: # KangaOrderBookAdapter
         maxAttempts: 3
         waitDuration: 200ms
         retryExceptions:

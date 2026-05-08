@@ -15,6 +15,7 @@ public record Ranking(
 
     public record Item(
             String market,
-            String spread
+            String spread,
+            Group group
     ) {}
 }

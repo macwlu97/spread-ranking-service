@@ -4,15 +4,17 @@ import com.platform.spreadranking.application.port.in.CalculateRankingUseCase;
 import com.platform.spreadranking.application.port.out.MarketProviderPort;
 import com.platform.spreadranking.application.port.out.OrderBookProviderPort;
 import com.platform.spreadranking.domain.market.Market;
+import com.platform.spreadranking.domain.ranking.Group;
 import com.platform.spreadranking.domain.ranking.Ranking;
 import com.platform.spreadranking.domain.ranking.Ranking.Item;
 import com.platform.spreadranking.domain.spread.SpreadCalculator;
 import org.springframework.stereotype.Service;
 
 import java.math.RoundingMode;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 @Service
 public class CalculateRankingService implements CalculateRankingUseCase {
@@ -37,44 +39,68 @@ public class CalculateRankingService implements CalculateRankingUseCase {
     @Override
     public Ranking calculate() {
 
-        List<Item> group1 = new ArrayList<>();
-        List<Item> group2 = new ArrayList<>();
-        List<Item> group3 = new ArrayList<>();
+        var markets = marketProvider.getMarkets();
 
-        for (Market market : marketProvider.getMarkets()) {
+        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
-            var orderBook = orderBookProvider.getOrderBook(market);
+            List<Future<Item>> futures = markets.stream()
+                    .map(market -> executor.submit(() -> processMarket(market)))
+                    .toList();
 
-            var spreadOpt = spreadCalculator.calculate(orderBook);
+            List<Item> items = futures.stream()
+                    .map(this::safeGet)
+                    .toList();
 
-            // GROUP 3 - missing / invalid data
-            if (spreadOpt.isEmpty() || spreadOpt.get().value() == null) {
-                group3.add(new Item(market.tickerId(), "N/A"));
-                continue;
-            }
-
-            var spread = spreadOpt.get();
-
-            // FIX: BigDecimal safe formatting (no double)
-            var formattedValue = spread.value()
-                    .setScale(2, RoundingMode.HALF_UP)
-                    .toPlainString();
-
-            if (spread.isLow()) {
-                group1.add(new Item(market.tickerId(), formattedValue));
-            } else {
-                group2.add(new Item(market.tickerId(), formattedValue));
-            }
+            return buildRanking(items);
         }
+    }
 
-        group1.sort(BY_MARKET);
-        group2.sort(BY_MARKET);
-        group3.sort(BY_MARKET);
+    private Item processMarket(Market market) {
+
+        var orderBook = orderBookProvider.getOrderBook(market);
+        var spreadOpt = spreadCalculator.calculate(orderBook);
+
+        return spreadOpt
+                .filter(spread -> spread.value() != null)
+                .map(spread -> {
+
+                    var formatted = spread.value()
+                            .setScale(2, RoundingMode.HALF_UP)
+                            .toPlainString();
+
+                    var group = spread.isLow() ? Group.LOW : Group.HIGH;
+
+                    return new Item(
+                            market.tickerId(),
+                            formatted,
+                            group
+                    );
+                })
+                .orElseGet(() -> new Item(
+                        market.tickerId(),
+                        "N/A",
+                        Group.MISSING
+                ));
+    }
+
+    private Item safeGet(Future<Item> future) {
+        try {
+            return future.get();
+        } catch (Exception e) {
+            return new Item("UNKNOWN", "N/A", Group.MISSING);
+        }
+    }
+
+    private Ranking buildRanking(List<Item> items) {
+
+        var grouped = items.stream()
+                .sorted(BY_MARKET)
+                .collect(java.util.stream.Collectors.groupingBy(Item::group));
 
         return new Ranking(
-                List.copyOf(group1),
-                List.copyOf(group2),
-                List.copyOf(group3)
+                grouped.getOrDefault(Group.LOW, List.of()),
+                grouped.getOrDefault(Group.HIGH, List.of()),
+                grouped.getOrDefault(Group.MISSING, List.of())
         );
     }
 }
