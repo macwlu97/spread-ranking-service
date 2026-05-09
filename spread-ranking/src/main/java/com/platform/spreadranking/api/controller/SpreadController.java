@@ -1,6 +1,8 @@
 package com.platform.spreadranking.api.controller;
 
+import com.platform.spreadranking.application.port.in.CalculateAndStoreRankingUseCase;
 import com.platform.spreadranking.application.port.in.CalculateRankingUseCase;
+import com.platform.spreadranking.application.port.in.GetRankingUseCase;
 import com.platform.spreadranking.infrastructure.memory.RankingStore;
 import com.platform.spreadranking.api.dto.RankingResponse;
 import org.springframework.http.ResponseEntity;
@@ -12,26 +14,27 @@ import java.time.Instant;
 @RequestMapping("/api/v1/spread")
 public class SpreadController {
 
-    private final CalculateRankingUseCase calculateRankingUseCase;
-    private final RankingStore rankingStore;
+    private final CalculateAndStoreRankingUseCase calculateAndStoreRankingUseCase;
+    private final GetRankingUseCase getRankingUseCase;
 
-    public SpreadController(CalculateRankingUseCase calculateRankingUseCase,
-                            RankingStore rankingStore) {
-        this.calculateRankingUseCase = calculateRankingUseCase;
-        this.rankingStore = rankingStore;
+    public SpreadController(
+            CalculateAndStoreRankingUseCase calculateAndStoreRankingUseCase,
+            GetRankingUseCase getRankingUseCase
+    ) {
+        this.calculateAndStoreRankingUseCase = calculateAndStoreRankingUseCase;
+        this.getRankingUseCase = getRankingUseCase;
     }
 
     @PostMapping("/calculate")
     public ResponseEntity<Void> calculateRanking() {
-        var result = calculateRankingUseCase.calculate();
-        rankingStore.save(result);
+        calculateAndStoreRankingUseCase.execute();
         return ResponseEntity.accepted().build();
     }
 
     @GetMapping("/ranking")
     public ResponseEntity<RankingResponse> getRanking() {
 
-        return rankingStore.get()
+        return getRankingUseCase.getLatest()
                 .map(r -> ResponseEntity.ok(
                         new RankingResponse(Instant.now(), r)
                 ))
